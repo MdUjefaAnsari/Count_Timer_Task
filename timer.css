@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    color: white;
+    font-family: 'Monoton', cursive;
+    background: rgb(24, 22, 22);
+    border: 25px solid #000;
+    border-radius: 300px;
+    padding: 10px;
+    
+}
+.container {
+    margin-top: 5%;
+    margin-left: 36%;
+}
+
+
+h4 {
+    font-size: 21px;
+    box-shadow: 1px 2px 4px 2px hotpink;
+    width: 600px;
+    margin-bottom: 30px;
+    height: 35px;
+    padding: 7px;
+    color: white;
+    margin-left: 30%;
+    text-align: center;
+    animation: 10s rotate linear infinite;
+}
+
+.buttons {
+    padding: 7px 41px;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-top: 5px;
+    background: rgb(41, 255, 216);
+    border-radius: 7px;
+    color: black;
+    width: 200px;
+}
+
+#setTimeout:hover {
+    cursor: pointer;
+    background: rgb(42, 205, 175);
+}
+
+#setInterval:hover {
+    cursor: pointer;
+    background: rgb(42, 205, 175);
+}
+
+#time_duration {
+    width: 400px;
+    text-align: center;
+    box-shadow: 1px 0px 3px 1px rgb(255, 223, 223);
+    margin-top: 6px;
+    padding: 5px 40px;
+    font-size: 21px;
+    background:pink;
+    border: none;
+    color: black;
+    border-radius: 4px;
+
+}
+.timersFun{
+    width: 410px;
+    padding: 4px 0px 4px 4px;
+}
+
+.pauseResume {
+    padding: 5px 0px;
+    font-size: 16px;
+    width: 200px;
+    transition: 0.4s;
+    margin-top: 5px;
+    background: rgb(255, 73, 17);
+    border-radius: 7px;
+    color: rgb(249, 250, 255);
+}
+
+.pauseResume:hover {
+    cursor: pointer;
+    background: rgb(201, 71, 31);
+    transform: scale(1.040);
+}
+.setInterval{
+    padding: 5px 30px;
+    width: 200px;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-top: 5px;
+    background: rgb(44, 146, 255);
+    border-radius: 7px;
+    color:white;
+}
+.setInterval:hover {
+    cursor: pointer;
+    background: rgb(14, 184, 251);
+    transform: scale(1.040);
+}
+.content {
+    box-shadow: 1px 2px 3px 2px white;
+    width: 400px;
+    text-align: center;
+    height: 120px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 14px;
+    background: black;
+}
+.content::before {
+    margin-top: -109px;
+    font-weight: bold;
+    color: red;
+    content: "Display";
+    font-variant: small-caps;
+  }
+
+@keyframes rotate {
+    0% {
+        background: conic-gradient(black, rgb(235, 78, 0), black, rgb(239, 64, 0), black, rgb(255, 85, 0), black, rgb(255, 77, 0), black);
+        transform: scale(1.00001);
+    }
+
+    75% {
+        background: conic-gradient(black, rgb(255, 225, 118), black, rgb(255, 226, 123), black, rgb(255, 228, 159), black, rgb(255, 227, 144), black);
+        transform: scale(1.00001);
+    }
+
+    90% {
+        background: conic-gradient(black, rgb(0, 255, 187), black, rgb(0, 255, 238), black, rgb(0, 221, 255), black, rgb(0, 255, 247), black);
+       
+    }
+
+    99.9%,
+    100% {
+        background: conic-gradient(black, rgb(255, 0, 115), black, rgb(255, 0, 115), black, rgb(255, 0, 115), black, rgb(255, 0, 115), black);
+        
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Timer</title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+    <h4>Reverse Timer with setTimeout and setInterval</h4>
+
+    <div class="container">
+        <div class="content">
+            <div id="forTimeout"style="color:yellow" ></div><br>
+            <div id="forInterval"></div>
+        </div>
+        <input type="number" id="time_duration" placeholder="Enter time in Seconds"><br>
+        <button id="setTimeout"class="buttons">Start setTimeout</button>
+        <button id="setInterval"class="buttons"> Start setInterval</button><br>
+       
+       <div class="timersFun">
+        <button id="pauseTimeout"class="pauseResume">Pause setTimeout</button>
+        <button id="pauseInterval"class="setInterval">Pause setInterval</button><br>
+        <button id="resumeTimeout" class="pauseResume">Resume setTimeout</button>
+        <button id="resumeInterval"class="setInterval">Resume setInterval</button>
+       </div>
+    </div>
+
+
+    <script src="timer.js" type="text/javascript"></script>
+</body>
+</html>
